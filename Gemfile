@@ -13,6 +13,8 @@ group :test, :development do
 end
 
 gem 'devise', '2.1.0'
+gem 'cancan', '1.6.7'
+
 
 group :test do
   gem 'capybara', '1.1.2'
