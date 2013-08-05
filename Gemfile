@@ -8,6 +8,10 @@ gem 'dynamic_form', '1.1.4'
 
 gem 'sqlite3'
 
+group :development do
+  gem 'coffee-rails-source-maps'
+end
+
 group :test, :development do
   gem 'rspec-rails', '~> 2.11'
 end
@@ -15,6 +19,7 @@ end
 gem 'devise', '2.1.0'
 gem 'cancan', '1.6.7'
 
+gem 'paperclip', '2.7.0'
 
 group :test do
   gem 'capybara', '1.1.2'
