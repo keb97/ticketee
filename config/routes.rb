@@ -26,6 +26,8 @@ get '/awaiting_confirmation',
   end
   root :to => "projects#index"
 
+  resources :files
+
 
 
 
